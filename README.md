@@ -21,8 +21,8 @@ conda activate mpcd
 ## Install manually
 
 ```
-conda create -n resgen python=3.8
-conda install pytorch==1.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+conda create -n resgen python=3.10
+conda install pytorch==1.12 cudatoolkit=11.3 -c pytorch -c conda-forge
 conda install pyg -c pyg
 conda install -c conda-forge rdkit
 conda install biopython -c conda-forge
