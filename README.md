@@ -34,6 +34,8 @@ Here is a quick use of validation. Using the following command:
 
 
 ```
+cd exps/checkpoint
+wget https://drive.google.com/file/d/1QsZDWIuUno6uTZcDmSNTJISyPLaGumYy/view?usp=sharing
 sh examples/val/val.sh
 ```
 
