@@ -1,8 +1,8 @@
-# MPCD: A multi-task graph Transformer for molecule property prediction by integrating common and domain knowledge 
+# Enhancing Molecular Property Prediction with MGCD: A Multi-Task Graph Transformer Integrating Common and Domain Knowledge
 
 
 
-![The framework of MPCD](https://github.com/XIXIYOUNG2018/MPCD/blob/main/framework.pdf)
+![The framework of MGCD](https://github.com/XIXIYOUNG2018/MGCD/blob/main/framework.pdf)
 
 MPCD is a newly developed method for evaluating the predictive performance on ADMET, physicochemical, and activity cliff compounds of machine learning models.
 
@@ -87,7 +87,7 @@ sh examples/train.sh
 Also, the validation command includes the Python file and configs of  ADMET, physicochemical datasets and activity cliffs datasets
 # Validataion
 
-Evaluate the performance of MPCD.
+Evaluate the performance of MGCD.
 ```
 sh examples/val.sh
 ```
@@ -95,9 +95,9 @@ sh examples/val.sh
 Also, you can skip the pre-training， and directly use the pre-trained .cpk file to load the parameter.
 
 
-Note that MPCD can be ready for any customer data set, as long as you use the propoess_data.py to transform your data into pickle format and load the
+Note that MGCD can be ready for any customer data set, as long as you use the propoess_data.py to transform your data into pickle format and load the
 pretraining model. Then follow the same fine-tuning process.
 
 # License
-MPCD is under MIT license. For use of specific models, please refer to the model licenses found in the original packages.
+MGCD is under MIT license. For use of specific models, please refer to the model licenses found in the original packages.
 
