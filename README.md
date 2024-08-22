@@ -16,7 +16,7 @@ MGCD is a newly developed method for evaluating the predictive performance on AD
 ## Install via conda yaml file 
 ```
 conda env create -f environment.yml
-conda activate mpcd 
+conda activate mgcd 
 ```
 ## Install manually
 
@@ -50,7 +50,7 @@ Then the output will be:
 # Data
 
 ## Download data
-The pretraining data for MPCD is ChEMBL: https://www.ebi.ac.uk/chembl/.
+The pretraining data for MGCD is ChEMBL: https://www.ebi.ac.uk/chembl/.
 
 The fine-tuning datasets include two datasets:
 
