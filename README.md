@@ -4,7 +4,7 @@
 
 ![The framework of MGCD](https://github.com/XIXIYOUNG2018/MGCD/blob/main/framework.pdf)
 
-MPCD is a newly developed method for evaluating the predictive performance on ADMET, physicochemical, and activity cliff compounds of machine learning models.
+MGCD is a newly developed method for evaluating the predictive performance on ADMET, physicochemical, and activity cliff compounds of machine learning models.
 
 
 
@@ -70,7 +70,7 @@ python data_process/smiles_to_graph.py
 
 # Train
 
-MPCD is first pre-trained with ChEMBL dataset in dataset/ChEMBL.
+MGCD is first pre-trained with ChEMBL dataset in dataset/ChEMBL.
 
 ## Pre-training with ChEMBL dataset
 ```
