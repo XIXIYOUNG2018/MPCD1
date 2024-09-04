@@ -17,7 +17,7 @@ default_root_dir="../../exps/$exp_name/$seed"
 mkdir -p $default_root_dir
 n_gpu=$(nvidia-smi -L | wc -l)
 max_epochs=2000
-python ../../graphormer/test.py --num_workers 4 --seed $seed --batch_size $batch_size \
+python ../../models/test.py --num_workers 4 --seed $seed --batch_size $batch_size \
       --dataset_name BCF    --checkpoint_path /home/ps/Documents/xxy/pred/MPCD/exps/checkpoints_wo_ppb/last.ckpt\
       --gpus $n_gpu --accelerator cuda --precision 16 --gradient_clip_val 5.0 \
       $arch \
