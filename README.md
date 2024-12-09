@@ -51,7 +51,7 @@ Then the output will be:
 # Data
 
 ## Download data
-The pretraining data for MGCD is ChEMBL: https://www.ebi.ac.uk/chembl/.
+The pretraining data for MPCD is ChEMBL: https://www.ebi.ac.uk/chembl/.
 
 The fine-tuning datasets include two datasets:
 
@@ -88,7 +88,7 @@ sh examples/train.sh
 Also, the validation command includes the Python file and configs of  ADMET, physicochemical datasets and activity cliffs datasets
 # Validataion
 
-Evaluate the performance of MGCD.
+Evaluate the performance of MPCD.
 ```
 sh examples/val.sh
 ```
@@ -96,9 +96,9 @@ sh examples/val.sh
 Also, you can skip the pre-training， and directly use the pre-trained .cpk file to load the parameter.
 
 
-Note that MGCD can be ready for any customer data set, as long as you use the propoess_data.py to transform your data into pickle format and load the
+Note that MPCD can be ready for any customer data set, as long as you use the propoess_data.py to transform your data into pickle format and load the
 pretraining model. Then follow the same fine-tuning process.
 
 # License
-MGCD is under MIT license. For use of specific models, please refer to the model licenses found in the original packages.
+MPCD is under MIT license. For use of specific models, please refer to the model licenses found in the original packages.
 
