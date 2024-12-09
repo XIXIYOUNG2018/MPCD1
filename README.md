@@ -1,8 +1,9 @@
-# Enhancing Molecular Property Prediction with MGCD: A Multi-Task Graph Transformer Integrating Common and Domain Knowledge
+# MPCD: A Multitask Graph Transformer for Molecular Property Prediction by Integrating Common and Domain KnowledgeArticle link copied!
 
 
 
-![The framework of MGCD](https://github.com/XIXIYOUNG2018/MGCD/blob/main/framework.pdf)
+
+![The framework of MGCD](https://github.com/XIXIYOUNG2018/MPCD/blob/main/framework.pdf)
 
 MGCD is a newly developed method for evaluating the predictive performance on ADMET, physicochemical, and activity cliff compounds of machine learning models.
 
