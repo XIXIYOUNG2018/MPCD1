@@ -1,4 +1,4 @@
-name: mgcd
+name: mpcd
 channels:
   - pytorch
   - https;//conda.anaconda.org/openeye
